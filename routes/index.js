@@ -10,8 +10,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/LoginYRegistro.ejs', function (req, res, next) {
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+  router.get('/LoginYRegistro.ejs', function (req, res, next) {
   res.render('LoginYRegistro.ejs');
 });
+
 
 module.exports = router;
