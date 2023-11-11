@@ -35,7 +35,7 @@ todo{
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
-    background-color: rgba(rgb(240, 129, 129));
+    background-color: rgb(240, 129, 129);
 }
 
 .caja__trasera div{
@@ -70,7 +70,7 @@ todo{
 
 .caja__trasera button:hover{
     background: #fff;
-    color: rgba(rgb(240, 129, 129));
+    color: rgb(240, 129, 129);
 }
 
 /*Formularios*/
@@ -99,7 +99,7 @@ todo{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: (rgb(240, 129, 129));
+    color: rgb(240, 129, 129);
 }
 
 .contenedor__login-register form input{
@@ -117,7 +117,7 @@ padding: 10px 40px;
 margin-top: 40px;
 border: none;
 font-size: 14px;
-background: (rgb(240, 129, 129));
+background: rgb(240, 129, 129);
 color: white;
 cursor: pointer;
 outline: none;
